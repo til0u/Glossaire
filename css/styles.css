@@ -1,0 +1,112 @@
+body {
+	background-color: #2980b9;
+}
+
+header,
+main {
+	width: 100%;
+}
+
+#form-section {
+	position: fixed;
+	height: 10em;
+	top: 0;
+	left: 0;
+	background-color: #3498db;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#form-section form {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#form-section input[type=text] {
+	width: 90%;
+}
+
+@media (min-width: 1024px) {
+	#form-section input[type=text] {
+		width: 75%;
+	}
+}
+
+@media (min-width: 1280px) {
+	#form-section input[type=text] {
+		width: 50%;
+	}
+}
+
+main {
+	margin-top: 12em;
+}
+
+nav ul {
+	list-style-type: none;
+	float: right;
+}
+
+nav li {
+	display: inline-block;
+}
+
+.list li {
+	background-color: #fff;
+	width: 100%;
+	min-height: 38px;
+	padding: 10px 30px;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+	box-sizing: border-box;
+}
+
+.list .word {
+	color: #555;
+	font-size: 14px;
+	font-weight: 600;
+	/*line-height: 38px;*/
+	
+	letter-spacing: .1rem;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.list .word::after {
+	content: " : ";
+}
+
+.list {
+	margin: 0 1em;
+	list-style-type: none;
+}
+
+nav {
+	height: 50px;
+	margin: 0 1em;
+}
+
+@media (min-width: 1024px) {
+	.list {
+		margin: 0 3em;
+	}
+	nav {
+		margin: 0 3em;
+	}
+}
+
+@media (min-width: 1280px) {
+	.list {
+		margin: 0 5em;
+	}
+	nav {
+		margin: 0 5em;
+	}
+}
+
+footer {
+	text-align: center;
+}

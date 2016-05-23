@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<title>Glossaire</title>
+	<meta name="description" content="">
+	<meta name="author" content="Tilou">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- FONT
+	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+	<!-- CSS
+	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body id="definition">
+
+	<!-- Primary Page Layout
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<header id="form-section">
+		<form method="post">
+			<input type="text" id="searchInput" name="search" placeholder="Search">
+		</form>
+	</header>
+
+	<main>
+		<nav>
+			<ul>
+				<li class="right">
+					<button class="sort button button-primary" data-sort="word">Sort</button>
+				</li>
+			</ul>
+		</nav>
+
+		<ul class="list">
+		</ul>
+	</main>
+	<footer>
+		<p>Il y a <span id="count"></span> définitions</p>
+	</footer>
+
+	<script src="js/list.js"></script>
+	<script src="js/data.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+
+</html>
