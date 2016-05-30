@@ -43,6 +43,7 @@ main {
 
 main {
 	margin-top: 12em;
+	overflow-x: hidden;
 }
 
 nav ul {
