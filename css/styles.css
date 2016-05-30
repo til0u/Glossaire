@@ -73,7 +73,6 @@ nav li {
 	
 	letter-spacing: .1rem;
 	text-decoration: none;
-	white-space: nowrap;
 }
 
 .list .word::after {
